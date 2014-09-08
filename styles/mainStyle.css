@@ -1,0 +1,168 @@
+html
+{
+	margin:0;
+	padding:0;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+#title
+{
+	font-size: 150%;
+	margin-left: 50px;
+	color: gray;
+}
+
+#subtitle
+{
+	font-size: 75%;
+}
+
+#container
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+}
+
+#leftcontent
+{
+	position: fixed;
+	margin-left: 25px;
+	padding-left: 10px;
+	float: left;
+	width:25%;
+	color: #bdbdbd;
+	min-height: 100%;
+}
+
+#leftcontent li
+{
+	border-bottom: 4px solid #bdbdbd;
+	border-bottom-width: 100%;
+	margin-top: 25%;
+	height:100%;
+	font-size: 200%;
+}
+
+#rightcontent
+{
+	position: relative;
+	float: right;
+	width:76%;
+	padding-left: 1px;
+	min-height: 100%;
+	background-color: Orchid;
+}
+
+#rightTitle
+{
+	text-align: center;
+	font-size: 250%;
+	text-decoration: underline;
+}
+
+#leftInfo
+{
+	float: left;
+	position: relative;
+	text-align: justify;
+	padding-left: 15%;
+	font-size: 100%;
+}
+
+#rightInfo
+{
+	float: right;
+	position: relative;
+	text-align: justify;
+	padding-right: 15%;
+	font-size: 100%;
+}
+
+#title-150
+{
+	text-align: center;
+	font-size: 150%;
+}
+
+#title-125
+{
+	text-align: center;
+	font-size: 125%;
+}
+
+#about
+{
+	color: Orchid;
+	border-bottom: 4px solid Orchid;
+}
+
+#about:hover
+{
+	color: Orchid;
+	border-bottom: 4px solid Orchid;
+}
+
+#education:hover
+{
+	color: Tomato;
+	border-bottom: 4px solid Tomato;
+}
+
+#work:hover
+{
+	color: LightGreen;
+	border-bottom: 4px solid LightGreen;
+}
+
+#contact:hover
+{
+	color:Khaki;
+	border-bottom: 4px solid Khaki;
+}
+
+#aboutContent
+{
+	text-align: center;
+	font-size: 120%;
+}
+
+#educationContent
+{
+	text-align: center;
+	font-size: 125%;
+	display: none;
+}
+
+#workContent
+{
+	text-align: center;
+	font-size: 125%;
+	display: none;
+}
+
+#contactContent
+{
+	text-align: center;
+	font-size: 125%;
+	display: none;
+}
+
+#leftEducation
+{
+	float: left;
+	padding-left: 25%;
+}
+
+#rightEducation
+{
+	float: right;
+	padding-right: 30%;
+}
