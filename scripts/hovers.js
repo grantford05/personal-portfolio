@@ -13,6 +13,8 @@ function init()
   var contact = document.getElementById("contact");
   var aboutContent = document.getElementById("aboutContent");
   var educationContent = document.getElementById("educationContent");
+  var workContent = document.getElementById("workContent");
+  var contactContent = document.getElementById("contactContent");
   aboutHover();
 }
 
@@ -37,6 +39,8 @@ function aboutHover()
   about.style.borderColor = "Orchid";
   aboutContent.style.display = "block";
   educationContent.style.display = "none";
+  workContent.style.display = "none";
+  contactContent.style.display = "none";
 }
 
 function educationHover()
@@ -48,22 +52,32 @@ function educationHover()
   education.style.borderColor = "Tomato";
   aboutContent.style.display = "none";
   educationContent.style.display = "block";
+  workContent.style.display = "none";
+  contactContent.style.display = "none";
 }
 
 function workHover()
 {
   resetColors();
-	rightTitle.innerHTML = "WORK";
+  rightTitle.innerHTML = "WORK";
   rightcontent.style.backgroundColor = "LightGreen";
   work.style.color = "LightGreen";
   work.style.borderColor = "LightGreen";
+  aboutContent.style.display = "none";
+  educationContent.style.display = "none";
+  workContent.style.display = "block";
+  contactContent.style.display = "none";
 }
 
 function contactHover()
 {
   resetColors();
   rightTitle.innerHTML = "CONTACT";
-  rightcontent.style.backgroundColor = "Khaki";
-  contact.style.color = "Khaki";
-  contact.style.borderColor = "Khaki";
+  rightcontent.style.backgroundColor = "CornflowerBlue ";
+  contact.style.color = "CornflowerBlue ";
+  contact.style.borderColor = "CornflowerBlue ";
+  aboutContent.style.display = "none";
+  educationContent.style.display = "none";
+  workContent.style.display = "none";
+  contactContent.style.display = "block";
 }

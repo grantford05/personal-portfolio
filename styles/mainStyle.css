@@ -2,6 +2,7 @@ html
 {
 	margin:0;
 	padding:0;
+	overflow-y: scroll; 
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -10,11 +11,35 @@ ul
 	list-style-type: none;
 }
 
+a
+{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s ease-in-out;
+}
+
+a:visited
+{
+	color:black;
+}
+
+a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
 #title
 {
 	font-size: 150%;
 	margin-left: 50px;
 	color: gray;
+	transition: 0.5s ease-in-out;
+}
+
+#title:hover
+{
+	color:black;
 }
 
 #subtitle
@@ -34,12 +59,15 @@ ul
 #leftcontent
 {
 	position: fixed;
+	margin-top: 25px;
 	margin-left: 25px;
 	padding-left: 10px;
 	float: left;
 	width:25%;
 	color: #bdbdbd;
 	min-height: 100%;
+	max-height: 100%;
+	overflow-y: scroll;
 }
 
 #leftcontent li
@@ -57,12 +85,14 @@ ul
 	float: right;
 	width:76%;
 	padding-left: 1px;
+	max-height: auto;
 	min-height: 100%;
 	background-color: Orchid;
 }
 
 #rightTitle
 {
+	margin-top: 50px;
 	text-align: center;
 	font-size: 250%;
 	text-decoration: underline;
@@ -130,12 +160,14 @@ ul
 
 #aboutContent
 {
+	margin-top: 10%;
 	text-align: center;
-	font-size: 120%;
+	font-size: 125%;
 }
 
 #educationContent
 {
+	margin-top: 10%;
 	text-align: center;
 	font-size: 125%;
 	display: none;
@@ -150,6 +182,7 @@ ul
 
 #contactContent
 {
+	margin-top: 10%;
 	text-align: center;
 	font-size: 125%;
 	display: none;
@@ -158,11 +191,83 @@ ul
 #leftEducation
 {
 	float: left;
+	padding-top: 25px;
 	padding-left: 25%;
 }
 
 #rightEducation
 {
 	float: right;
+	padding-top: 25px;
 	padding-right: 30%;
+}
+
+#websiteThumbs
+{
+	color:#bdbdbd;
+	overflow: hidden;
+}
+
+.thumbnail
+{
+	padding-bottom: 25px;
+	transition: 0.5s ease-in-out;
+}
+
+.thumbnail:hover
+{
+	color: black;
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.thumbnail img
+{
+	border: 1px solid black;
+}
+
+#leftWork
+{
+	float: left;
+	padding-top: 25px;
+	padding-left: 12%;
+}
+
+#rightWork
+{
+	float: right;
+	padding-top: 25px;
+	padding-right: 12%;
+}
+
+#socialIcons
+{
+	padding-top: 50px;
+	position: relative;
+}
+
+
+#socialIcons img
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+}
+
+#socialIcons a
+{
+	text-decoration: none;
+}
+
+.icon
+{
+	transition: 0.5s ease-in-out;
+}
+
+.icon:hover
+{
+	-webkit-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg) ;
+    -ms-transform:scale(1.5) rotate(360deg);
+    -webkit-transform:scale(1.5) rotate(360deg);
 }
