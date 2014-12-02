@@ -14,25 +14,24 @@ ul
 a
 {
 	text-decoration: none;
-	color: black;
+	color: white;
 	transition: 0.5s ease-in-out;
 }
 
 a:visited
 {
-	color:black;
+	color:white;
 }
 
 a:hover
 {
-	color: black;
+	color: white;
 	text-decoration: underline;
 }
 
 #title
 {
 	font-size: 150%;
-	margin-left: 50px;
 	color: gray;
 	transition: 0.5s ease-in-out;
 }
@@ -88,6 +87,8 @@ a:hover
 	max-height: auto;
 	min-height: 100%;
 	background-color: Orchid;
+	color: white;
+	transition: 0.5s ease-in-out;
 }
 
 #rightTitle
@@ -95,7 +96,7 @@ a:hover
 	margin-top: 50px;
 	text-align: center;
 	font-size: 250%;
-	text-decoration: underline;
+	
 }
 
 #leftInfo
@@ -132,6 +133,22 @@ a:hover
 {
 	color: Orchid;
 	border-bottom: 4px solid Orchid;
+	transition: 0.2s ease-in-out;
+}
+
+#education
+{
+	transition: 0.2s ease-in-out;
+}
+
+#work
+{
+	transition: 0.2s ease-in-out;
+}
+
+#contact
+{
+	transition: 0.2s ease-in-out;
 }
 
 #about:hover
@@ -216,14 +233,14 @@ a:hover
 
 .thumbnail:hover
 {
-	color: black;
+	color: white;
 	-webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .thumbnail img
 {
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 #leftWork

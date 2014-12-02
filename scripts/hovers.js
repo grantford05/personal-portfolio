@@ -60,9 +60,9 @@ function workHover()
 {
   resetColors();
   rightTitle.innerHTML = "WORK";
-  rightcontent.style.backgroundColor = "LightGreen";
-  work.style.color = "LightGreen";
-  work.style.borderColor = "LightGreen";
+  rightcontent.style.backgroundColor = "SlateBlue   ";
+  work.style.color = "SlateBlue   ";
+  work.style.borderColor = "SlateBlue   ";
   aboutContent.style.display = "none";
   educationContent.style.display = "none";
   workContent.style.display = "block";
