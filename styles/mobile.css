@@ -32,14 +32,14 @@ html
 {
 	position: relative;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 200px;
 }
 
 #socialIcons
 {
 	position: relative;
 	width: 100%;
-	padding-top: 350px;
+	padding-top: 200px;
 	padding-bottom: 50px;
 	display: block;
     margin-left: auto;

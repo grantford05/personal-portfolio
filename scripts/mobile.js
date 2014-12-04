@@ -5,8 +5,8 @@ window.onload = function()
 
 function init()
 {
-	if (screen.width <= 699) 
+	if (screen.width <= 999999) 
 	{
-		document.location = "mobile.html";
+		document.location = "https://grantford.co.nz/mobile.html";
 	}
 }
