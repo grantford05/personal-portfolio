@@ -47,9 +47,9 @@ function educationHover()
 {
   resetColors();
   rightTitle.innerHTML = "EDUCATION";
-  rightcontent.style.backgroundColor = "Tomato";
-  education.style.color = "Tomato";
-  education.style.borderColor = "Tomato";
+  rightcontent.style.backgroundColor = "LightSeaGreen";
+  education.style.color = "LightSeaGreen";
+  education.style.borderColor = "LightSeaGreen";
   aboutContent.style.display = "none";
   educationContent.style.display = "block";
   workContent.style.display = "none";
@@ -60,9 +60,9 @@ function workHover()
 {
   resetColors();
   rightTitle.innerHTML = "WORK";
-  rightcontent.style.backgroundColor = "SlateBlue   ";
-  work.style.color = "SlateBlue   ";
-  work.style.borderColor = "SlateBlue   ";
+  rightcontent.style.backgroundColor = "Tomato";
+  work.style.color = "Tomato";
+  work.style.borderColor = "Tomato";
   aboutContent.style.display = "none";
   educationContent.style.display = "none";
   workContent.style.display = "block";
