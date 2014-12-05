@@ -35,6 +35,12 @@ html
 	padding-top: 200px;
 }
 
+#subtitle
+{
+	text-align: center;
+	font-size: 90%;
+}
+
 #socialIcons
 {
 	position: relative;
